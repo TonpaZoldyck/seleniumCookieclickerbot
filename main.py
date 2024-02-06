@@ -5,7 +5,7 @@ import time
 
 
 # VARIABLES
-DURATION_SECONDS: int = 30  # set timer for 5 minutes or however long you need
+DURATION_SECONDS: int = 300  # set timer for 5 minutes or however long you need
 COUNTER: int = 0
 CHECKING_THRESHOLD: int = 100  # check after this many loops - make it increase by a factor
 INCREASE_FACTOR: float = 1.1
