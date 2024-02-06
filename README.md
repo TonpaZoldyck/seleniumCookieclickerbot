@@ -28,9 +28,15 @@ The project consists of the following components:
 - `Classes/GameLogic.py`: Contains the GameLogic class responsible for implementing the game logic and automating clicks.
 - `Classes/scrapeData.py`: Contains the ScrapingData class responsible for scraping data from the webpage.
 
+## Use
+- This is an object oriented Selenium bot which attempts to gain a high score on the cookie clicker game with in 5 minutes.
+- Feel free to mess around with the variables and see if the performance of the bot can be optimised based on stratigies for this game.
+- Or if you wanna use some of the code for other scraping activities, go for it.
+
 ## Additional Information
 
-- The script is designed to run for a specified duration (default is 30 seconds) and automatically click on the cookie to increase the cookie count.
+- The script is designed to run for a specified duration (default is 300 seconds which is 5 minutes) and automatically click on the cookie to increase the cookie count.
+- In 5 minutes it is able to gain a cookies per second multiplyer of around ~93.4. 
 - It also automatically buys products and upgrades based on predefined logic.
 - Make sure to adjust the Chrome driver path in `main.py` according to your system configuration.
 
@@ -41,11 +47,4 @@ The project consists of the following components:
 
 ## Author
 
-[Your Name](https://github.com/YourUsername)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Replace the placeholders like `YourUsername`, `YourRepository`, and `Your Name` with your actual GitHub username, repository name, and name respectively. You can also add more sections or modify the existing ones based on your project's specifics. Once you've created the README.md file, commit it to your repository and push it to GitHub.
+[Tonpa Zoldyck]([https://github.com/YourUsername](https://github.com/TonpaZoldyck))
